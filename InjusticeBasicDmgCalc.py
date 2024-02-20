@@ -157,10 +157,10 @@ def offer_restart():
             restart = input('Restart? (Y/N) ')
 
       if restart == 'y':
-            print('Restarting Program...')
+            print('Restarting Application...')
             main()
       else:
-            print('Quitting Program...')
+            print('Quitting Application...')
             quit()
 
 def clamp(num, min_value, max_value):
